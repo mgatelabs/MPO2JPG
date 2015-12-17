@@ -45,6 +45,7 @@ public class MpoRunner {
         }
 
         for (File mpo: files) {
+            System.out.println("Processing: " + mpo.getName());
             List<MpoSlicer.MpoSlicerItem> slices = MpoSlicer.slice(mpo);
             if (slices.size() == 2) {
                 String namePrefix = mpo.getName();
