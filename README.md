@@ -1,5 +1,5 @@
 # MPO2JPG
-Tool to quickly convert from MPO to JPG
+Tool to quickly convert from MPO to JPG.  I would not use this, it doesn't work with all MPO files.
 
 Usage
 
